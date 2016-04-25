@@ -1,8 +1,16 @@
+/*excise 1*/
 body {
   background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  font-family: 'Open Sans','helvetica',arial,sans-serif;
+  font-weight: 300;
+  color: #62686f;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: 300;
 }
 .container {
   margin: 0 auto;
@@ -18,7 +26,7 @@ body {
   background-image: url(../img/banner.jpg);
 }
 .main-header h1 {
-  margin-bottom: 20px;
+  margin: 0;
 
   padding: 85px 70px 20px;
 
@@ -39,4 +47,90 @@ body {
   box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
   border: 3px solid #fff;
   border-radius: 999px
+}
+/*excise 2*/
+.main-nav {
+  background-color: #333;
+  text-align: center;
+}
+
+.main-nav ul {
+  margin: 0;
+}
+
+.main-nav ul li {
+  margin: 15px 10px;
+
+  list-style: none;
+  display: inline-block;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.info-section {
+  overflow: hidden;
+  margin: 0;
+  padding: 30px 60px;
+  text-align: center;
+
+  background-color: #fff;
+}
+
+.whatido__skill--code {
+  padding-top: 100px;
+
+  background-image: url(../img/skill-code.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.whatido__skill--design {
+  padding-top: 100px;
+
+  background-image: url(../img/skill-design.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.whatido__skill--product {
+  padding-top: 100px;
+
+  background-image: url(../img/skill-product.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.whatido__skill {
+  float: left;
+
+  width: 33.3%;
+}
+.info-section header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.info-section header h2:after {
+  content: "";
+  display: block;
+
+  width: 80px;
+  margin: 10px auto;
+  border-bottom: 3px solid black;
+}
+.info-section__description {
+  font-style: italic;
+}
+
+.whatido header {
+  margin-bottom: 60px;
 }
