@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
   font-weight: 300;
 }
+ul {
+  padding: 0;
+}
 .container {
   margin: 0 auto;
 
@@ -85,7 +88,9 @@ h1, h2, h3, h4, h5, h6 {
 
   background-color: #fff;
 }
-
+.info-section li {
+  list-style: none;
+}
 .whatido__skill--code {
   padding-top: 100px;
 
@@ -133,4 +138,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .whatido header {
   margin-bottom: 60px;
+}
+/*excise 3*/
+.education-experience__list {
+  overflow: hidden;
+}
+.education-experience__list li img {
+  float: left;
+
+  width: 180px;
+}
+.education-experience__list li div {
+  margin-left: 200px;
+  height: 250px;
+  overflow: hidden;
+}
+.photos__list {
+  overflow: hidden;
+}
+.photos__list li {
+  float: left;
+
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.photos__list img {
+  width: 100%;
 }
